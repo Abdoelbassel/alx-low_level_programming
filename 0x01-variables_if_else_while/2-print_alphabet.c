@@ -2,20 +2,22 @@
 /**
  * main - Entry point 
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	char c;
+	int x;
 
 	c = 'a';
-	while 
-		(c <='z'){
-			putch(c);
-			c++;
+ 
+	for (x = 'A'; x <= 'Z'; x++)
+		{
+			char small = tolwer(x);
+
+			putchar(small);
 		}
 	putchar('\n');
-return (0);
+        return (0);
 }
 
