@@ -1,26 +1,3 @@
-#include <stdio.h>
-
-/**
- * main - Entry point
- *
- * Description: print all aplhabet letters
- *
- * Return: Always 0 (Success)
-*/
-
-int main(void)
-{
-	char ch = 'a';
-
-	while (ch <= 'z')
-	{
-		putchar(ch);
-		ch++;
-	}
-	putchar('\n');
-
-	return (0);
-}
 #include<stdio.h>
 
 /**
@@ -47,5 +24,17 @@ int main(void)
 				putchar(digit2 + 48);
 
 				if (digit1 + digit2 != 17)
+				{
+					putchar(',');
+					putchar(' ');
 				}
+			}
+			digit2++;
+		}
+		digit1++;
+	}
+	putchar('\n');
+
+	return (0);
+}
 
