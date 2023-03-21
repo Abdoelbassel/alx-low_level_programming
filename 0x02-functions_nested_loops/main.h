@@ -1,8 +1,10 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef main_h
+#define main_h
 
-#include <stdio.h>
-int _putchar(char c);
+#include "main.h"
 
+int _putchar(char);
+void print_alphabet(void);
+void print_alphabet_x10(void);
 
 #endif
